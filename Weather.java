@@ -10,16 +10,16 @@ public class Weather {
         if (temperature < 0) {
         System.out.println("Te estás congelando");
         //Si es bajo 0: Te estás congelando
-        } else if ((temperature > 0) && (temperature < 10)){
+        } else if ((temperature >= 0) && (temperature <= 10)){
         System.out.println( "Hace mucho frio");
         //Si es entre 0 y 10: Hace mucho 
-        } else if ((temperature > 11) && (temperature < 17)){ 
+        } else if ((temperature >= 11) && (temperature <= 17)){ 
         System.out.println("Con un abrigo estás bien");
         //Si es entre 11 y 17: Con un abrigo estás bien
-        } else if ((temperature > 18) && (temperature < 25)){
+        } else if ((temperature >= 18) && (temperature <= 25)){
         System.out.println("Parece que ha llegado el verano");
         //Si es entre 18 y 25: Parece que ha llegado el verano
-        } else if ((temperature > 26) && (temperature < 35)){
+        } else if ((temperature >= 26) && (temperature <= 35)){
         System.out.println("Que calooorrrrr");
         //Si es entre 26 y 35: Que calooorrrrr
         } else if (temperature >= 36){
